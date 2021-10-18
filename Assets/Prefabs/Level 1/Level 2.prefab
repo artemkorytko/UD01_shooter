@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7500883014433872441}
   m_Layer: 0
-  m_Name: Drone
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31,7 +31,7 @@ Transform:
   - {fileID: 2062664501906288864}
   - {fileID: 3370471945697024462}
   m_Father: {fileID: 7266476013064212643}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2479571451263278596
 GameObject:
@@ -1139,8 +1139,8 @@ Transform:
   - {fileID: 7859354185659661835}
   - {fileID: 301787666318354456}
   - {fileID: 5369201725939218904}
-  - {fileID: 7500883014433872441}
   - {fileID: 681511026435926434}
+  - {fileID: 7500883014433872441}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1173,7 +1173,7 @@ Transform:
   m_Children:
   - {fileID: 715838328090656783}
   m_Father: {fileID: 7266476013064212643}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &29293033822834487
 PrefabInstance:
