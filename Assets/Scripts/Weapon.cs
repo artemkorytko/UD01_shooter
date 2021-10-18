@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using JetBrains.Annotations;
 
 public class Weapon : MonoBehaviour
 {
@@ -18,7 +19,7 @@ public class Weapon : MonoBehaviour
     [SerializeField] private Transform _reloadingState = null;
     [SerializeField] private Transform _startBulletPoint = null;
     [SerializeField] private GameObject _ownerObject = null;
-    [SerializeField] private ParticleSystem _particleSystem = null;
+    [SerializeField][CanBeNull] private ParticleSystem _particleSystem = null;
 
     private int _currentBulletsCount = 0;
     private Coroutine _changeSateCoroutine = null;
