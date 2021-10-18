@@ -94,6 +94,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5187972752074009956}
   - component: {fileID: 4182565548707327857}
+  - component: {fileID: 8445179685886288870}
+  - component: {fileID: 3805508179445958892}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -133,6 +135,46 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 80
   m_CollisionDetection: 0
+--- !u!143 &8445179685886288870
+CharacterController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6297351383683556667}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Height: 2
+  m_Radius: 0.5
+  m_SlopeLimit: 45
+  m_StepOffset: 0.3
+  m_SkinWidth: 0.08
+  m_MinMoveDistance: 0.001
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3805508179445958892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6297351383683556667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 058a2e487bb164998a8a850432a30bbb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _groundLayer: Ground
+  _healthOnStart: 100
+  _deadHeight: -30
+  _useAutoInitialization: 0
+  _forwardSpeed: 0
+  _rotationSpeed: 0
+  _distanceToGround: 0.1
+  _camera: {fileID: 9173465716507469791}
+  _weapon: {fileID: 5455135393461034263}
+  _pool: {fileID: 0}
 --- !u!1 &7449180251364018944
 GameObject:
   m_ObjectHideFlags: 0
@@ -142,6 +184,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5985799970369410211}
+  - component: {fileID: 5455135393461034263}
   m_Layer: 0
   m_Name: Weapon
   m_TagString: Untagged
@@ -164,6 +207,29 @@ Transform:
   m_Father: {fileID: 9173465716507469791}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: -88.313, z: 7.309}
+--- !u!114 &5455135393461034263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7449180251364018944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f6a9425d587f42b38da411ffbf2c53e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _maxBulletsCount: 10
+  _reloadTimeToBullet: 0.5
+  _changeStateTime: 0.5
+  _shootDelay: 0.2
+  _throwForce: 10
+  _pool: {fileID: 0}
+  _normalState: {fileID: 0}
+  _reloadingState: {fileID: 0}
+  _startBulletPoint: {fileID: 0}
+  _ownerObject: {fileID: 0}
+  _particleSystem: {fileID: 0}
 --- !u!1 &7903219472496114831
 GameObject:
   m_ObjectHideFlags: 0
