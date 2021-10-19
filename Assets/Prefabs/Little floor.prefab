@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4349955630485315897}
   m_Layer: 0
-  m_Name: Floor
+  m_Name: Little floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
