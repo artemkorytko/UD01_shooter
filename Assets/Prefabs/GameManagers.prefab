@@ -44,7 +44,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _prefab: {fileID: 955404713475293528, guid: 18f75d141ae20e34a8c6642cb17fcfc1, type: 3}
-  _startCounnt: 20
+  _startCounnt: 50
   _resizeCount: 10
 --- !u!1 &6765668428920755415
 GameObject:
