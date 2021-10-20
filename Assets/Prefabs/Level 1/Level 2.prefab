@@ -214,7 +214,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 39abb5d08ee909142ba659f3d09c46dd, type: 2}
+  - {fileID: 2100000, guid: 05b84303c792a9f48b7af81e8ffe9521, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -3561,7 +3561,7 @@ PrefabInstance:
     - target: {fileID: 808082301385346266, guid: 5a31141e6696d45ab926369601cca605, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 39abb5d08ee909142ba659f3d09c46dd, type: 2}
+      objectReference: {fileID: 2100000, guid: 05b84303c792a9f48b7af81e8ffe9521, type: 2}
     - target: {fileID: 8900838258180151802, guid: 5a31141e6696d45ab926369601cca605, type: 3}
       propertyPath: m_Name
       value: Column (4)
@@ -12549,7 +12549,7 @@ PrefabInstance:
     - target: {fileID: 808082301385346266, guid: 5a31141e6696d45ab926369601cca605, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 39abb5d08ee909142ba659f3d09c46dd, type: 2}
+      objectReference: {fileID: 2100000, guid: 05b84303c792a9f48b7af81e8ffe9521, type: 2}
     - target: {fileID: 8900838258180151802, guid: 5a31141e6696d45ab926369601cca605, type: 3}
       propertyPath: m_Name
       value: Column (3)
@@ -12747,7 +12747,7 @@ PrefabInstance:
     - target: {fileID: 808082301385346266, guid: 5a31141e6696d45ab926369601cca605, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 39abb5d08ee909142ba659f3d09c46dd, type: 2}
+      objectReference: {fileID: 2100000, guid: 05b84303c792a9f48b7af81e8ffe9521, type: 2}
     - target: {fileID: 8900838258180151802, guid: 5a31141e6696d45ab926369601cca605, type: 3}
       propertyPath: m_Name
       value: Column (1)
@@ -25381,7 +25381,7 @@ PrefabInstance:
     - target: {fileID: 808082301385346266, guid: 5a31141e6696d45ab926369601cca605, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 39abb5d08ee909142ba659f3d09c46dd, type: 2}
+      objectReference: {fileID: 2100000, guid: 05b84303c792a9f48b7af81e8ffe9521, type: 2}
     - target: {fileID: 8900838258180151802, guid: 5a31141e6696d45ab926369601cca605, type: 3}
       propertyPath: m_Name
       value: Column (5)
@@ -38707,7 +38707,7 @@ PrefabInstance:
     - target: {fileID: 808082301385346266, guid: 5a31141e6696d45ab926369601cca605, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 39abb5d08ee909142ba659f3d09c46dd, type: 2}
+      objectReference: {fileID: 2100000, guid: 05b84303c792a9f48b7af81e8ffe9521, type: 2}
     - target: {fileID: 8900838258180151802, guid: 5a31141e6696d45ab926369601cca605, type: 3}
       propertyPath: m_Name
       value: Column (2)
@@ -48053,7 +48053,7 @@ PrefabInstance:
     - target: {fileID: 808082301385346266, guid: 5a31141e6696d45ab926369601cca605, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 39abb5d08ee909142ba659f3d09c46dd, type: 2}
+      objectReference: {fileID: 2100000, guid: 05b84303c792a9f48b7af81e8ffe9521, type: 2}
     - target: {fileID: 8900838258180151802, guid: 5a31141e6696d45ab926369601cca605, type: 3}
       propertyPath: m_Name
       value: Column
