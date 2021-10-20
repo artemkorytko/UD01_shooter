@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using JetBrains.Annotations;
 
 public class PlayerController : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class PlayerController : MonoBehaviour
     [Header("References")]
     [SerializeField] private Transform _camera = null;
     [SerializeField] private Weapon _weapon = null;
+    [SerializeField][CanBeNull] private FlashLight _flashLight = null;
     [SerializeField] private BulletPool _pool = null;
 
     private Vector2 _cameraRotationXBorders = new Vector2(-60f, 60f);
@@ -77,6 +79,7 @@ public class PlayerController : MonoBehaviour
         if (!_isActive) return;
 
         UpdateWeapon();
+        UpdateFlashLight();
         UpdateMovement();
         UpdateLook();
         CheckGround();
@@ -87,6 +90,14 @@ public class PlayerController : MonoBehaviour
         if (!_inputHandler.IsFireHold()) return;
 
         if (_weapon != null) _weapon.Shoot();
+    }
+
+    private void UpdateFlashLight()
+    {
+        if (_inputHandler.FlashKeyPressed() && _flashLight != null)
+        {
+            _flashLight.FlashStatusChange();
+        }
     }
 
     private void UpdateMovement()

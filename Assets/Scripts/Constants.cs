@@ -9,4 +9,5 @@ public static class Constants
     public static string LookHorizontalAxisName = "Mouse X";
     public static string LookVerticalAxisName = "Mouse Y";
     public static string FireName = "Fire1";
+    public static string FlashLightKey = "F";
 }

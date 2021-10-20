@@ -26,6 +26,11 @@ public class PlayerInputHandler : MonoBehaviour
         return Input.GetButton(Constants.FireName) || Input.GetButtonDown(Constants.FireName);
     }
 
+    public bool FlashKeyPressed()
+    {
+        return Input.GetButtonDown(Constants.FlashLightKey);
+    }
+
     public Vector3 GetMovementVector()
     {
         Vector3 direction = new Vector3(Input.GetAxis(Constants.HorizontalAxisName), 0f, Input.GetAxis(Constants.VerticalAxisName));
