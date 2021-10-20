@@ -11,10 +11,11 @@ public class FlashLight : MonoBehaviour
 
     public void FlashStatusChange()
     {
-        if(_flashStatus)
+        if (_flashStatus)
             DisableFlashLight();
         else
             EnableFlashLight();
+        _flashStatus = !_flashStatus;
     }
     
     private void EnableFlashLight()
