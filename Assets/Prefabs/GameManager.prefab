@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8895223028177502086
+--- !u!1 &8831306235306275294
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,8 +8,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8895223028177502085}
-  - component: {fileID: 8895223028177502084}
+  - component: {fileID: 8831306235306275293}
+  - component: {fileID: 8831306235306275292}
   m_Layer: 0
   m_Name: BulletPool
   m_TagString: Untagged
@@ -17,27 +17,27 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8895223028177502085
+--- !u!4 &8831306235306275293
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8895223028177502086}
+  m_GameObject: {fileID: 8831306235306275294}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 8895223028749402749}
+  m_Father: {fileID: 8831306235807534117}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8895223028177502084
+--- !u!114 &8831306235306275292
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8895223028177502086}
+  m_GameObject: {fileID: 8831306235306275294}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d203395d2c1b047e6a088d61490780b6, type: 3}
@@ -46,7 +46,7 @@ MonoBehaviour:
   _prefab: {fileID: 2132049060107585454, guid: 84b989957515da64ca5a15ae027c2f5a, type: 3}
   _startCounnt: 50
   _resizeCount: 10
---- !u!1 &8895223028749402751
+--- !u!1 &8831306235807534119
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -54,8 +54,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8895223028749402749}
-  - component: {fileID: 8895223028749402750}
+  - component: {fileID: 8831306235807534117}
+  - component: {fileID: 8831306235807534118}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -63,28 +63,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &8895223028749402749
+--- !u!4 &8831306235807534117
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8895223028749402751}
+  m_GameObject: {fileID: 8831306235807534119}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 8895223028177502085}
+  - {fileID: 8831306235306275293}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &8895223028749402750
+--- !u!114 &8831306235807534118
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8895223028749402751}
+  m_GameObject: {fileID: 8831306235807534119}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfd875efcba2d4c8e96b0502c3b819a6, type: 3}
@@ -92,4 +92,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _levels: []
   _uiManager: {fileID: 0}
-  _bulletPool: {fileID: 8895223028177502084}
+  _bulletPool: {fileID: 8831306235306275292}
