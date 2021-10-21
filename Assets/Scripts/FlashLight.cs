@@ -7,7 +7,7 @@ public class FlashLight : MonoBehaviour
 {
     [SerializeField] private Light[] _lights;
 
-    private bool _flashStatus = true;
+    private bool _flashStatus = false;
 
     public void FlashStatusChange()
     {

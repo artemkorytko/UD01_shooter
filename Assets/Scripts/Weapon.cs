@@ -38,7 +38,7 @@ public class Weapon : MonoBehaviour
         {
             Bullet bullet = _pool.GetObject();
             bullet.transform.position = _startBulletPoint.position;
-            bullet.Init(_pool, transform.forward, _ownerObject);
+            bullet.Init(_pool, transform.right, _ownerObject);
 
             if (_particleSystem != null)
             {

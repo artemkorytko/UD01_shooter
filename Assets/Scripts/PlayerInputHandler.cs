@@ -28,7 +28,7 @@ public class PlayerInputHandler : MonoBehaviour
 
     public bool FlashKeyPressed()
     {
-        return Input.GetButtonDown(Constants.FlashLightKey);
+        return Input.GetKeyDown(Constants.FlashLightKey);
     }
 
     public Vector3 GetMovementVector()
