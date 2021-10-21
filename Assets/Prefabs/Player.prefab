@@ -315,7 +315,7 @@ MonoBehaviour:
   _rotationSpeed: 10
   _distanceToGround: 0.1
   _camera: {fileID: 790581180363595545}
-  _weapon: {fileID: 0}
+  _weapon: {fileID: 5514289559896264694}
   _pool: {fileID: 0}
 --- !u!114 &2881862742620531765
 MonoBehaviour:
@@ -544,15 +544,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 435952, guid: e12d217556ea3f1488bbf3a2b9fa66cf, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.010999978
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 435952, guid: e12d217556ea3f1488bbf3a2b9fa66cf, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.072999895
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 435952, guid: e12d217556ea3f1488bbf3a2b9fa66cf, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.024999976
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 435952, guid: e12d217556ea3f1488bbf3a2b9fa66cf, type: 3}
       propertyPath: m_LocalRotation.w
