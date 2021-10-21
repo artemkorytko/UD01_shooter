@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d203395d2c1b047e6a088d61490780b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _prefab: {fileID: 0}
+  _prefab: {fileID: 4758177780526169453}
   _startCounnt: 50
   _resizeCount: 10
 --- !u!1 &6791522575856890397
@@ -95,4 +95,4 @@ MonoBehaviour:
   - {fileID: 2089257041581289384, guid: 61e293e81ca0f9a418451ea9b9680a2d, type: 3}
   - {fileID: 3478761225366610002, guid: ed5ffe329d433d9468302744cec4e2e6, type: 3}
   _uiManager: {fileID: 0}
-  _bulletPool: {fileID: 0}
+  _bulletPool: {fileID: 1062182748806346106}
