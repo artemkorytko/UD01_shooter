@@ -451,6 +451,14 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2230746152893963417, guid: 3de298cebfd2c764989cd10c0d08102e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1021617982}
+    - target: {fileID: 2230746152893963417, guid: 3de298cebfd2c764989cd10c0d08102e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: Exit
+      objectReference: {fileID: 0}
     - target: {fileID: 4170010946538083155, guid: 3de298cebfd2c764989cd10c0d08102e, type: 3}
       propertyPath: m_IsActive
       value: 1
@@ -486,6 +494,14 @@ PrefabInstance:
     - target: {fileID: 5132974576384250461, guid: 3de298cebfd2c764989cd10c0d08102e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5575036987849953010, guid: 3de298cebfd2c764989cd10c0d08102e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1021617982}
+    - target: {fileID: 5575036987849953010, guid: 3de298cebfd2c764989cd10c0d08102e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartGame
       objectReference: {fileID: 0}
     - target: {fileID: 5722509406124880097, guid: 3de298cebfd2c764989cd10c0d08102e, type: 3}
       propertyPath: m_Name
@@ -837,6 +853,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5571973035867938641, guid: 2827ea1a288751341a94fd90b7e62f06, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1956546329}
+    - target: {fileID: 5571973035867938641, guid: 2827ea1a288751341a94fd90b7e62f06, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MainMenuButton
+      objectReference: {fileID: 0}
     - target: {fileID: 7220330584139878128, guid: 2827ea1a288751341a94fd90b7e62f06, type: 3}
       propertyPath: m_Name
       value: Fail
@@ -944,6 +968,14 @@ PrefabInstance:
     - target: {fileID: 427439857742059829, guid: 3313663fb62a3fb4cb8bd988c52ca054, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1765158679349482411, guid: 3313663fb62a3fb4cb8bd988c52ca054, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1956546329}
+    - target: {fileID: 1765158679349482411, guid: 3313663fb62a3fb4cb8bd988c52ca054, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: MainMenuButton
       objectReference: {fileID: 0}
     - target: {fileID: 8693399131836199417, guid: 3313663fb62a3fb4cb8bd988c52ca054, type: 3}
       propertyPath: m_Name

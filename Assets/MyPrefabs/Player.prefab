@@ -252,7 +252,7 @@ MonoBehaviour:
   _rotationSpeed: 10
   _distanceToGround: 0.1
   _camera: {fileID: 2091285949782825527}
-  _weapon: {fileID: 0}
+  _weapon: {fileID: 7732205683744492111}
   _pool: {fileID: 0}
 --- !u!1 &2091285949782825522
 GameObject:
