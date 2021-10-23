@@ -17,6 +17,6 @@ public class HealthBar : MonoBehaviour
     {
         if (_gameManager == null) return;
 
-        _image.fillAmount = _gameManager.PlayerHealth;
+        //_image.fillAmount = _gameManager.PlayerHealth;
     }
 }

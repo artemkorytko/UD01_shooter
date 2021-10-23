@@ -44,6 +44,8 @@ public class GameManager : MonoBehaviour
     private void LoadPlayerData()
     {
         _levelNum = PlayerPrefs.GetInt("LevelNum", 0);
+        Debug.Log("_levelNum: " + _levelNum);
+
     }
 
     private void SavePlayerData()

@@ -760,6 +760,10 @@ PrefabInstance:
       propertyPath: _uiManager
       value: 
       objectReference: {fileID: 1956546329}
+    - target: {fileID: 5897089861769826585, guid: 9e19a730d70ee4f4486280b87ee830fc, type: 3}
+      propertyPath: _levels.Array.data[1]
+      value: 
+      objectReference: {fileID: 5166304796516194066, guid: 5e969a99f16ebbd44b36b097591bab3f, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9e19a730d70ee4f4486280b87ee830fc, type: 3}
 --- !u!1001 &6213770436249920796
@@ -980,6 +984,10 @@ PrefabInstance:
     - target: {fileID: 8693399131836199417, guid: 3313663fb62a3fb4cb8bd988c52ca054, type: 3}
       propertyPath: m_Name
       value: Win
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693399131836199417, guid: 3313663fb62a3fb4cb8bd988c52ca054, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3313663fb62a3fb4cb8bd988c52ca054, type: 3}
