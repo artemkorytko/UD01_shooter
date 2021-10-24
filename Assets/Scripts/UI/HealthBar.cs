@@ -16,7 +16,7 @@ public class HealthBar : MonoBehaviour
     private void Update()
     {
         if (_gameManager == null) return;
-        Debug.Log("Health"+_gameManager.PlayerHealth);
+       
         _image.fillAmount = _gameManager.PlayerHealth;
     }
 }

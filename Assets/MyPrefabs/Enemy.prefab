@@ -166,7 +166,7 @@ Transform:
   m_GameObject: {fileID: 3435215840779756193}
   m_LocalRotation: {x: -0, y: -0.70710576, z: -0, w: 0.7071079}
   m_LocalPosition: {x: 26.97, y: 0, z: 25.63}
-  m_LocalScale: {x: 0.8, y: 0.8, z: 0.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7058229630099273833}
   - {fileID: 3248976287994555395}
@@ -222,7 +222,7 @@ MonoBehaviour:
   _deadHeight: -30
   _dotProductForShoot: 0.9
   _useAutoInitialization: 0
-  _forwardSpeed: 8
+  _forwardSpeed: 10
   _rotationSpeed: 100
   _minAngle: 1
   _distanceToGround: 0.1
@@ -441,6 +441,18 @@ PrefabInstance:
     - target: {fileID: 400060, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
       propertyPath: m_RootOrder
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 400060, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.8
       objectReference: {fileID: 0}
     - target: {fileID: 400060, guid: fcb334eb247ae3e488abb081c847cf09, type: 3}
       propertyPath: m_LocalPosition.x
