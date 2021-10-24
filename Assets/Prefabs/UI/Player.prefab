@@ -381,6 +381,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 6083366067102626339}
     m_Modifications:
+    - target: {fileID: 2733621398247554489, guid: 8b59d59b32100f04287117dc7538fd52, type: 3}
+      propertyPath: looping
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819544369495989083, guid: 8b59d59b32100f04287117dc7538fd52, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819544369495989083, guid: 8b59d59b32100f04287117dc7538fd52, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.96
+      objectReference: {fileID: 0}
+    - target: {fileID: 2819544369495989083, guid: 8b59d59b32100f04287117dc7538fd52, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.96
+      objectReference: {fileID: 0}
     - target: {fileID: 3999988375842414536, guid: 8b59d59b32100f04287117dc7538fd52, type: 3}
       propertyPath: _ownerObject
       value: 
@@ -432,6 +448,10 @@ PrefabInstance:
     - target: {fileID: 4291969414050685374, guid: 8b59d59b32100f04287117dc7538fd52, type: 3}
       propertyPath: m_Name
       value: Pistol
+      objectReference: {fileID: 0}
+    - target: {fileID: 5487766036031903079, guid: 8b59d59b32100f04287117dc7538fd52, type: 3}
+      propertyPath: m_Direction
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5807596881477332323, guid: 8b59d59b32100f04287117dc7538fd52, type: 3}
       propertyPath: m_LocalRotation.w
