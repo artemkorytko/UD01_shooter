@@ -201,7 +201,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _image: {fileID: 1340549530918912800}
-  _gameManager: {fileID: 0}
+  _gameManager: {fileID: 5699579716297915112, guid: 846694d97b8314042b612da3e64439ac, type: 3}
 --- !u!1 &8843528793816141731
 GameObject:
   m_ObjectHideFlags: 0

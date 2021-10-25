@@ -46,9 +46,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _levels:
-  - {fileID: 1036504136179220857, guid: 23b236f2fc9929345940999520e03b7d, type: 3}
-  _uiManager: {fileID: 0}
-  _bulletPool: {fileID: 0}
+  - {fileID: 9033048002716362018, guid: bd0ba0db435d55745aacb3224f55d18c, type: 3}
+  _uiManager: {fileID: 2115196843345037652, guid: 4d22a1e90314c5e4780c79988a67989d, type: 3}
+  _bulletPool: {fileID: 1804515399101772944}
 --- !u!114 &1030784214385454854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61,7 +61,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d44333b7c9b404f839cb39fcf4a75d47, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _player: {fileID: 0}
+  _player: {fileID: 8079428862817706378, guid: fdf79d482560e7c4cabf5a84893fba04, type: 3}
   _enemies: []
 --- !u!1 &8772434196099566828
 GameObject:
