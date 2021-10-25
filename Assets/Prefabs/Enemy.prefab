@@ -398,8 +398,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _minDotProduct: 0
-  _minDistanceToTarget: 0.5
-  _maxDistanceToTarget: 3
+  _minDistanceToTarget: 0.2
+  _maxDistanceToTarget: 5
 --- !u!1 &5011347610233502184
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,9 +595,9 @@ MonoBehaviour:
   _healthOnStart: 100
   _deadHeight: -30
   _dotProductForShoot: 0.9
-  _useAutoInitialization: 0
-  _forwardSpeed: 10
-  _rotationSpeed: 10
+  _useAutoInitialization: 1
+  _forwardSpeed: 20
+  _rotationSpeed: 100
   _minAngle: 0
   _distanceToGround: 0.1
   _camera: {fileID: 7473045543673023628}
