@@ -529,11 +529,11 @@ MonoBehaviour:
   _healthOnStart: 100
   _deadHeight: -30
   _useAutoInitialization: 0
-  _forwardSpeed: 0
-  _rotationSpeed: 0
+  _forwardSpeed: 10
+  _rotationSpeed: 10
   _distanceToGround: 0.1
   _camera: {fileID: 5552359988789015859}
-  _weapon: {fileID: 0}
+  _weapon: {fileID: 7007594109673675414}
   _pool: {fileID: 0}
 --- !u!114 &2953472914508669858
 MonoBehaviour:
