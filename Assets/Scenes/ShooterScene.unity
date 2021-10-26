@@ -432,6 +432,34 @@ PrefabInstance:
       propertyPath: _gameManager
       value: 
       objectReference: {fileID: 1548401705}
+    - target: {fileID: 6439980397185719801, guid: ef5cb5c8920ac0b4d83aaf60d93cb239, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439980397185719801, guid: ef5cb5c8920ac0b4d83aaf60d93cb239, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439980397185719801, guid: ef5cb5c8920ac0b4d83aaf60d93cb239, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 2252302133221313685}
+    - target: {fileID: 6439980397185719801, guid: ef5cb5c8920ac0b4d83aaf60d93cb239, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439980397185719801, guid: ef5cb5c8920ac0b4d83aaf60d93cb239, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: StartButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439980397185719801, guid: ef5cb5c8920ac0b4d83aaf60d93cb239, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UIManager, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 6439980397185719801, guid: ef5cb5c8920ac0b4d83aaf60d93cb239, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6822426434427017750, guid: ef5cb5c8920ac0b4d83aaf60d93cb239, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
